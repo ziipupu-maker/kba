@@ -85,1566 +85,526 @@ body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #
 </style>
 </head>
 <body>
-<div class="header"><h1>競馬AI予想</h1><span class="updated">更新: 2026/09/21 14:01</span></div>
-<div class="tabs"><button class="tab-btn active" onclick="showDtab('dtab0')" id="btn-dtab0">09/20（日）</button><button class="tab-btn " onclick="showDtab('dtab1')" id="btn-dtab1">09/21（月）</button><button class="tab-btn " onclick="showDtab('dtab2')" id="btn-dtab2">09/22（火）</button></div>
+<div class="header"><h1>競馬AI予想</h1><span class="updated">更新: 2026/10/03 05:32</span></div>
+<div class="tabs"><button class="tab-btn active" onclick="showDtab('dtab0')" id="btn-dtab0">10/03（土）</button><button class="tab-btn " onclick="showDtab('dtab1')" id="btn-dtab1">10/04（日）</button></div>
 <div style="padding:10px 14px 0"><div class="section-block">
   <div class="section-tabs">
     <button class="stab-btn active" onclick="showStab('stab-pickup',this)">⭐ 一押し</button>
     <button class="stab-btn" onclick="showStab('stab-ana',this)">🎯 穴レース</button>
   </div>
-  <div class="stab-pane active" id="stab-pickup"><div class="pickup-day">09/20（日）</div><div class="pickup-row">
+  <div class="stab-pane active" id="stab-pickup"><div class="pickup-day">10/03（土）</div><div class="pickup-row">
   <div class="pickup-left">
-    <span class="pickup-label">中山10R</span>
-    <span class="pickup-rname">汐留特別</span>
-    <span class="pickup-horse">8. タカスタカスタカス</span>
+    <span class="pickup-label">東京10R</span>
+    <span class="pickup-rname">白秋S</span>
+    <span class="pickup-horse">5. レッドキングリー</span>
+    
+  </div>
+  <div class="pickup-right">複55%</div>
+</div><div class="pickup-row">
+  <div class="pickup-left">
+    <span class="pickup-label">東京7R</span>
+    <span class="pickup-rname">3歳以上1勝クラス</span>
+    <span class="pickup-horse">14. ワディアルリヤハ</span>
     
   </div>
   <div class="pickup-right">複56%</div>
 </div><div class="pickup-row">
   <div class="pickup-left">
-    <span class="pickup-label">阪神11R</span>
-    <span class="pickup-rname">道頓堀S</span>
-    <span class="pickup-horse">2. アサクサグレース</span>
+    <span class="pickup-label">京都12R</span>
+    <span class="pickup-rname">3歳以上2勝クラス</span>
+    <span class="pickup-horse">7. タンテドヴィーヴル</span>
     
   </div>
-  <div class="pickup-right">複50%</div>
-</div><div class="pickup-row">
+  <div class="pickup-right">複55%</div>
+</div><div class="pickup-day">10/04（日）</div><div class="pickup-row">
   <div class="pickup-left">
-    <span class="pickup-label">中山8R</span>
-    <span class="pickup-rname">3歳以上1勝クラス</span>
-    <span class="pickup-horse">5. カンレイスター</span>
-    
-  </div>
-  <div class="pickup-right">複54%</div>
-</div><div class="pickup-day">09/21（月）</div><div class="pickup-row">
-  <div class="pickup-left">
-    <span class="pickup-label">阪神12R</span>
-    <span class="pickup-rname">3歳以上1勝クラス</span>
-    <span class="pickup-horse">5. ホットシート</span>
+    <span class="pickup-label">東京11R</span>
+    <span class="pickup-rname">毎日王冠</span>
+    <span class="pickup-horse">4. サトノシャイニング</span>
     
   </div>
   <div class="pickup-right">複53%</div>
 </div><div class="pickup-row">
   <div class="pickup-left">
-    <span class="pickup-label">阪神9R</span>
-    <span class="pickup-rname">新涼特別</span>
-    <span class="pickup-horse">12. ピカラ</span>
+    <span class="pickup-label">京都11R</span>
+    <span class="pickup-rname">京都大賞典</span>
+    <span class="pickup-horse">18. ダノンシーマ</span>
     
   </div>
-  <div class="pickup-right">複55%</div>
-</div><div class="pickup-row">
-  <div class="pickup-left">
-    <span class="pickup-label">阪神11R</span>
-    <span class="pickup-rname">神戸新聞杯</span>
-    <span class="pickup-horse">3. ゴーラッキー</span>
-    
-  </div>
-  <div class="pickup-right">複55%</div>
-</div><div class="pickup-day">09/22（火）</div><div class="pickup-row">
-  <div class="pickup-left">
-    <span class="pickup-label">中山1R</span>
-    <span class="pickup-rname">3歳以上障害未勝利</span>
-    <span class="pickup-horse">9. アバットゥータ</span>
-    
-  </div>
-  <div class="pickup-right">複47%</div>
-</div><div class="pickup-row">
-  <div class="pickup-left">
-    <span class="pickup-label">中山9R</span>
-    <span class="pickup-rname">鋸山特別</span>
-    <span class="pickup-horse">14. ヴンダーバール</span>
-    
-  </div>
-  <div class="pickup-right">複56%</div>
-</div><div class="pickup-row">
-  <div class="pickup-left">
-    <span class="pickup-label">中山12R</span>
-    <span class="pickup-rname">3歳以上1勝クラス</span>
-    <span class="pickup-horse">12. ソードスレイプニル</span>
-    
-  </div>
-  <div class="pickup-right">複46%</div>
+  <div class="pickup-right">複50%</div>
 </div></div>
   <div class="stab-pane" id="stab-ana"><div class="ana-row">
   <div class="ana-left">
-    <span class="pickup-label">中山9R</span>
-    <span class="pickup-rname">松戸特別</span>
-    <span class="ana-meta">2400m ダート 12頭</span>
-  </div>
-  <div class="ana-sub">穴候補: 5. マッドゲイル（7人気）</div>
-</div><div class="ana-row">
-  <div class="ana-left">
-    <span class="pickup-label">中山11R</span>
-    <span class="pickup-rname">JRAアニバーサリーS</span>
-    <span class="ana-meta">1800m ダート 16頭</span>
-  </div>
-  <div class="ana-sub">穴候補: 3. ディーズゴールド（7人気）　5. サノノワンダー（6人気）</div>
-</div><div class="ana-row">
-  <div class="ana-left">
-    <span class="pickup-label">中山9R</span>
-    <span class="pickup-rname">鋸山特別</span>
-    <span class="ana-meta">1800m ダート 16頭</span>
-  </div>
-  <div class="ana-sub">穴候補: 8. カスバートテソーロ（9人気）</div>
-</div><div class="ana-row">
-  <div class="ana-left">
-    <span class="pickup-label">阪神6R</span>
-    <span class="pickup-rname">3歳以上1勝クラス</span>
-    <span class="ana-meta">2000m ダート 15頭</span>
+    <span class="pickup-label">京都11R</span>
+    <span class="pickup-rname">京都大賞典</span>
+    <span class="ana-meta">2400m 芝 18頭</span>
   </div>
   <div class="ana-sub">穴候補: なし</div>
 </div><div class="ana-row">
   <div class="ana-left">
-    <span class="pickup-label">中山4R</span>
-    <span class="pickup-rname">2歳新馬</span>
-    <span class="ana-meta">1800m ダート 16頭</span>
+    <span class="pickup-label">京都6R</span>
+    <span class="pickup-rname">3歳以上1勝クラス</span>
+    <span class="ana-meta">2000m 芝 17頭</span>
+  </div>
+  <div class="ana-sub">穴候補: なし</div>
+</div><div class="ana-row">
+  <div class="ana-left">
+    <span class="pickup-label">京都12R</span>
+    <span class="pickup-rname">3歳以上2勝クラス</span>
+    <span class="ana-meta">1800m ダート 14頭</span>
+  </div>
+  <div class="ana-sub">穴候補: なし</div>
+</div><div class="ana-row">
+  <div class="ana-left">
+    <span class="pickup-label">京都10R</span>
+    <span class="pickup-rname">大山崎S</span>
+    <span class="ana-meta">1200m ダート 16頭</span>
+  </div>
+  <div class="ana-sub">穴候補: なし</div>
+</div><div class="ana-row">
+  <div class="ana-left">
+    <span class="pickup-label">京都7R</span>
+    <span class="pickup-rname">3歳以上1勝クラス</span>
+    <span class="ana-meta">1400m ダート 16頭</span>
   </div>
   <div class="ana-sub">穴候補: なし</div>
 </div></div>
 </div></div>
 <div class="tab-pane active" id="dtab0">
-  <div class="summary">
-  <div class="sum-item"><span class="sum-label">◎単</span><span class="sum-val">0/24R</span></div>
-  <div class="sum-item"><span class="sum-label">◎複</span><span class="sum-val">0/24R</span></div>
-  <div class="sum-item"><span class="sum-label">3連単</span><span class="sum-val">0/24R</span></div>
-</div>
-  <div class="vtabs" id="vtabs-dtab0"><button class="vtab-btn active" onclick="showVtab('dtab0','vtab0_0')" id="btn-vtab0_0">中山</button><button class="vtab-btn " onclick="showVtab('dtab0','vtab0_1')" id="btn-vtab0_1">阪神</button></div>
-  <div class="vtab-pane active" id="vtab0_0"><div class="summary">
-  <div class="sum-item"><span class="sum-label">◎単</span><span class="sum-val">0/12R</span></div>
-  <div class="sum-item"><span class="sum-label">◎複</span><span class="sum-val">0/12R</span></div>
-  <div class="sum-item"><span class="sum-label">3連単</span><span class="sum-val">0/12R</span></div>
-</div><div class="card">
+  
+  <div class="vtabs" id="vtabs-dtab0"><button class="vtab-btn active" onclick="showVtab('dtab0','vtab0_0')" id="btn-vtab0_0">京都</button><button class="vtab-btn " onclick="showVtab('dtab0','vtab0_1')" id="btn-vtab0_1">東京</button></div>
+  <div class="vtab-pane active" id="vtab0_0"><div class="card">
   <div class="card-head">
     <div class="card-head-left">
-      <span class="race-label">中山1R</span>
+      <span class="race-label">京都1R</span>
       <span class="race-name">2歳未勝利</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1800m ダート</span>
-      <span class="race-meta">15頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">8 - 4 - 15</div>
-  <div class="res-detail">
-    <span class="res-item">単1.4倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">イカルステソーロ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単28.8 複3.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">アイビークロノス</span>
-  <span class="pct">36%</span>
-  <span class="odds">単29.1 複4.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">コスモセイント</span>
-  <span class="pct">36%</span>
-  <span class="odds">単115.7 複7.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">4</span>
-  <span class="name">ノシェリー</span>
-  <span class="pct">36%</span>
-  <span class="odds">単5.9 複1.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">サイモントレノ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単122.5 複16.6</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 1. イカルステソーロ</div>
-    <div class="bet-sub">相手: 2. アイビークロノス / 3. コスモセイント / 4. ノシェリー / 5. サイモントレノ</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山2R</span>
-      <span class="race-name">2歳未勝利</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1600m 芝</span>
-      <span class="race-meta">14頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">11 - 2 - 7</div>
-  <div class="res-detail">
-    <span class="res-item">単2.4倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">ホワイトホール</span>
-  <span class="pct">36%</span>
-  <span class="odds">単29.7 複3.7</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">フォンターナドーロ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単8.0 複2.0</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">セレスティナ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単5.5 複1.5</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">4</span>
-  <span class="name">ベールダウン</span>
-  <span class="pct">36%</span>
-  <span class="odds">単5.4 複1.7</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">リアスハート</span>
-  <span class="pct">36%</span>
-  <span class="odds">単39.4 複7.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 1. ホワイトホール</div>
-    <div class="bet-sub">相手: 2. フォンターナドーロ / 3. セレスティナ / 4. ベールダウン / 5. リアスハート</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山3R</span>
-      <span class="race-name">2歳未勝利</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">2000m 芝</span>
-      <span class="race-meta">13頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">13 - 12 - 2</div>
-  <div class="res-detail">
-    <span class="res-item">単1.9倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">オオルリ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単144.3 複22.0</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">ハンデンブレイズ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単15.3 複2.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">4</span>
-  <span class="name">オペレッタテソーロ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単127.3 複16.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">5</span>
-  <span class="name">ポッドレーヴ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単41.2 複5.8</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">6</span>
-  <span class="name">スーパーユタカ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単5.1 複1.5</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 1. オオルリ</div>
-    <div class="bet-sub">相手: 2. ハンデンブレイズ / 4. オペレッタテソーロ / 5. ポッドレーヴ / 6. スーパーユタカ</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山4R</span>
-      <span class="race-name">2歳新馬</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1800m ダート</span>
-      <span class="race-meta">16頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">3 - 10 - 4</div>
-  <div class="res-detail">
-    <span class="res-item">単10.2倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">ロードベラヴィータ</span>
-  <span class="pct">35%</span>
-  <span class="odds">単29.6 複6.9</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">ワンダーマーベル</span>
-  <span class="pct">35%</span>
-  <span class="odds">単14.9 複3.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">マートングレイス</span>
-  <span class="pct">35%</span>
-  <span class="odds">単10.2 複2.5</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">4</span>
-  <span class="name">シャローオネスト</span>
-  <span class="pct">35%</span>
-  <span class="odds">単26.4 複6.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">レガシーマインド</span>
-  <span class="pct">35%</span>
-  <span class="odds">単36.8 複7.9</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 1. ロードベラヴィータ</div>
-    <div class="bet-sub">相手: 2. ワンダーマーベル / 3. マートングレイス / 4. シャローオネスト / 5. レガシーマインド</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山5R</span>
-      <span class="race-name">2歳新馬</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1600m 芝</span>
-      <span class="race-meta">16頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">6 - 12 - 5</div>
-  <div class="res-detail">
-    <span class="res-item">単3.5倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">ファンタジーゲーム</span>
-  <span class="pct">35%</span>
-  <span class="odds">単91.4 複8.9</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">マイバーゲン</span>
-  <span class="pct">35%</span>
-  <span class="odds">単28.6 複3.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">テルケンレンジシ</span>
-  <span class="pct">35%</span>
-  <span class="odds">単207.3 複27.7</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">4</span>
-  <span class="name">クロノスフィア</span>
-  <span class="pct">35%</span>
-  <span class="odds">単14.4 複3.0</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">アニーリング</span>
-  <span class="pct">35%</span>
-  <span class="odds">単32.8 複4.5</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 1. ファンタジーゲーム</div>
-    <div class="bet-sub">相手: 2. マイバーゲン / 3. テルケンレンジシ / 4. クロノスフィア / 5. アニーリング</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山6R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1800m ダート</span>
-      <span class="race-meta">14頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">8 - 7 - 2</div>
-  <div class="res-detail">
-    <span class="res-item">単3.3倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">エタンセル</span>
-  <span class="pct">42%</span>
-  <span class="odds">単9.8 複2.6</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">6</span>
-  <span class="name">ボールドタワー</span>
-  <span class="pct">40%</span>
-  <span class="odds">単113.6 複14.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">9</span>
-  <span class="name">アデルフィー</span>
-  <span class="pct">39%</span>
-  <span class="odds">単19.3 複3.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">3</span>
-  <span class="name">アビヤント</span>
-  <span class="pct">32%</span>
-  <span class="odds">単3.6 複1.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">7</span>
-  <span class="name">ヤングアメリカンズ</span>
-  <span class="pct">29%</span>
-  <span class="odds">単10.1 複2.0</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 1. エタンセル</div>
-    <div class="bet-sub">相手: 6. ボールドタワー / 9. アデルフィー / 3. アビヤント / 7. ヤングアメリカンズ</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山7R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">2000m 芝</span>
-      <span class="race-meta">18頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">2 - 13 - 1</div>
-  <div class="res-detail">
-    <span class="res-item">単14.4倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">11</span>
-  <span class="name">エピックフライト</span>
-  <span class="pct">42%</span>
-  <span class="odds">単3.4 複1.7</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">6</span>
-  <span class="name">ピエスユニーク</span>
-  <span class="pct">41%</span>
-  <span class="odds">単8.1 複2.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">8</span>
-  <span class="name">ノーザンタイタン</span>
-  <span class="pct">36%</span>
-  <span class="odds">単15.4 複4.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">1</span>
-  <span class="name">セットエトワール</span>
-  <span class="pct">34%</span>
-  <span class="odds">単14.4 複3.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">13</span>
-  <span class="name">エルナト</span>
-  <span class="pct">34%</span>
-  <span class="odds">単18.8 複5.7</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 11. エピックフライト</div>
-    <div class="bet-sub">相手: 6. ピエスユニーク / 8. ノーザンタイタン / 1. セットエトワール / 13. エルナト</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山8R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1200m ダート</span>
-      <span class="race-meta">16頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">4 - 1 - 5</div>
-  <div class="res-detail">
-    <span class="res-item">単3.6倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">5</span>
-  <span class="name">カンレイスター</span>
-  <span class="pct">41%</span>
-  <span class="odds">単3.4 複1.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">15</span>
-  <span class="name">ペイトー</span>
-  <span class="pct">38%</span>
-  <span class="odds">単26.9 複4.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">11</span>
-  <span class="name">チェルシー</span>
-  <span class="pct">36%</span>
-  <span class="odds">単12.8 複2.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">1</span>
-  <span class="name">フラッシュポイント</span>
-  <span class="pct">35%</span>
-  <span class="odds">単18.6 複4.7</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">12</span>
-  <span class="name">シスター</span>
-  <span class="pct">32%</span>
-  <span class="odds">単41.2 複6.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 5. カンレイスター</div>
-    <div class="bet-sub">相手: 15. ペイトー / 11. チェルシー / 1. フラッシュポイント / 12. シスター</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山9R</span>
-      <span class="race-name">松戸特別</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">2400m ダート</span>
-      <span class="race-meta">12頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">8 - 10 - 3</div>
-  <div class="res-detail">
-    <span class="res-item">単4.6倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">8</span>
-  <span class="name">ニヒトツーゼーア</span>
-  <span class="pct">41%</span>
-  <span class="odds">単4.6 複1.6</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">9</span>
-  <span class="name">オオタチ</span>
-  <span class="pct">40%</span>
-  <span class="odds">単6.0 複1.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">コズミックダンサー</span>
-  <span class="pct">39%</span>
-  <span class="odds">単3.1 複1.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">10</span>
-  <span class="name">シャローファースト</span>
-  <span class="pct">36%</span>
-  <span class="odds">単4.3 複1.5</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">マッドゲイル</span>
-  <span class="pct">25%</span>
-  <span class="odds">単6.9 複1.9</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 8. ニヒトツーゼーア</div>
-    <div class="bet-sub">相手: 9. オオタチ / 3. コズミックダンサー / 10. シャローファースト / 5. マッドゲイル</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山10R</span>
-      <span class="race-name">汐留特別</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1200m ダート</span>
-      <span class="race-meta">16頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">10 - 8 - 15</div>
-  <div class="res-detail">
-    <span class="res-item">単49.3倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">8</span>
-  <span class="name">タカスタカスタカス</span>
-  <span class="pct">43%</span>
-  <span class="odds">単1.7 複1.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">ベルゼビュート</span>
-  <span class="pct">37%</span>
-  <span class="odds">単7.4 複1.8</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">15</span>
-  <span class="name">ブルーマッキンジー</span>
-  <span class="pct">36%</span>
-  <span class="odds">単5.6 複1.5</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">11</span>
-  <span class="name">フィールマイプラン</span>
-  <span class="pct">32%</span>
-  <span class="odds">単39.8 複5.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">スターランウェイ</span>
-  <span class="pct">31%</span>
-  <span class="odds">単57.2 複7.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 8. タカスタカスタカス</div>
-    <div class="bet-sub">相手: 2. ベルゼビュート / 15. ブルーマッキンジー / 11. フィールマイプラン / 5. スターランウェイ</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山11R</span>
-      <span class="race-name">オールカマー</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">2200m 芝</span>
-      <span class="race-meta">13頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">8 - 1 - 4</div>
-  <div class="res-detail">
-    <span class="res-item">単44.5倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">9</span>
-  <span class="name">コスモキュランダ</span>
-  <span class="pct">40%</span>
-  <span class="odds">単3.6 複1.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">8</span>
-  <span class="name">メイショウゲキリン</span>
-  <span class="pct">40%</span>
-  <span class="odds">単44.5 複6.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">7</span>
-  <span class="name">レガレイラ</span>
-  <span class="pct">40%</span>
-  <span class="odds">単3.1 複1.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">6</span>
-  <span class="name">パンジャ</span>
-  <span class="pct">38%</span>
-  <span class="odds">単17.2 複3.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">1</span>
-  <span class="name">キャントウェイト</span>
-  <span class="pct">34%</span>
-  <span class="odds">単12.1 複2.6</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 9. コスモキュランダ</div>
-    <div class="bet-sub">相手: 8. メイショウゲキリン / 7. レガレイラ / 6. パンジャ / 1. キャントウェイト</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山12R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1200m 芝</span>
-      <span class="race-meta">16頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">11 - 13 - 1</div>
-  <div class="res-detail">
-    <span class="res-item">単31.0倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">16</span>
-  <span class="name">ファインサマーデイ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単5.9 複1.8</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">1</span>
-  <span class="name">グランプレジール</span>
-  <span class="pct">35%</span>
-  <span class="odds">単8.1 複2.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">13</span>
-  <span class="name">フロウアンドライム</span>
-  <span class="pct">34%</span>
-  <span class="odds">単22.2 複4.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">6</span>
-  <span class="name">エバーラスト</span>
-  <span class="pct">33%</span>
-  <span class="odds">単3.8 複1.6</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">ミルトハーバー</span>
-  <span class="pct">30%</span>
-  <span class="odds">単8.1 複2.9</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 16. ファインサマーデイ</div>
-    <div class="bet-sub">相手: 1. グランプレジール / 13. フロウアンドライム / 6. エバーラスト / 5. ミルトハーバー</div>
-  </div>
-</div></div><div class="vtab-pane " id="vtab0_1"><div class="summary">
-  <div class="sum-item"><span class="sum-label">◎単</span><span class="sum-val">0/12R</span></div>
-  <div class="sum-item"><span class="sum-label">◎複</span><span class="sum-val">0/12R</span></div>
-  <div class="sum-item"><span class="sum-label">3連単</span><span class="sum-val">0/12R</span></div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神1R</span>
-      <span class="race-name">3歳以上障害未勝利</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta"></span>
-      <span class="race-meta">12頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">12 - 9 - 4</div>
-  <div class="res-detail">
-    <span class="res-item">単5.0倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">アナザーエース</span>
-  <span class="pct">39%</span>
-  <span class="odds">単4.6 複1.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">8</span>
-  <span class="name">メイショウヘール</span>
-  <span class="pct">35%</span>
-  <span class="odds">単6.7 複1.6</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">9</span>
-  <span class="name">アウスヴァール</span>
-  <span class="pct">34%</span>
-  <span class="odds">単2.7 複1.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">10</span>
-  <span class="name">ジロラータ</span>
-  <span class="pct">32%</span>
-  <span class="odds">単11.6 複2.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">12</span>
-  <span class="name">ブラックシールド</span>
-  <span class="pct">28%</span>
-  <span class="odds">単5.0 複1.8</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 1. アナザーエース</div>
-    <div class="bet-sub">相手: 8. メイショウヘール / 9. アウスヴァール / 10. ジロラータ / 12. ブラックシールド</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神2R</span>
-      <span class="race-name">2歳未勝利</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1200m ダート</span>
-      <span class="race-meta">13頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">8 - 11 - 3</div>
-  <div class="res-detail">
-    <span class="res-item">単6.3倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">ピコキング</span>
-  <span class="pct">36%</span>
-  <span class="odds">単9.5 複2.7</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">アースグリッパー</span>
-  <span class="pct">36%</span>
-  <span class="odds">単4.2 複1.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">ゴールデンレシオ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単20.0 複4.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">4</span>
-  <span class="name">テーオーライガ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単23.3 複4.9</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">ラブシンフォニー</span>
-  <span class="pct">36%</span>
-  <span class="odds">単97.0 複13.8</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 1. ピコキング</div>
-    <div class="bet-sub">相手: 2. アースグリッパー / 3. ゴールデンレシオ / 4. テーオーライガ / 5. ラブシンフォニー</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神3R</span>
-      <span class="race-name">2歳未勝利</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1800m 芝</span>
-      <span class="race-meta">7頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">3 - 7 - 4</div>
-  <div class="res-detail">
-    <span class="res-item">単7.6倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">ホットリップス</span>
-  <span class="pct">38%</span>
-  <span class="odds">単123.6 複17.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">ジェントル</span>
-  <span class="pct">38%</span>
-  <span class="odds">単47.0 複6.7</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">シャローチャンプ</span>
-  <span class="pct">38%</span>
-  <span class="odds">単7.6 複1.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">4</span>
-  <span class="name">ドーンレーサー</span>
-  <span class="pct">38%</span>
-  <span class="odds">単53.6 複4.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">サトノボルテクス</span>
-  <span class="pct">38%</span>
-  <span class="odds">単20.5 複2.0</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 1. ホットリップス</div>
-    <div class="bet-sub">相手: 2. ジェントル / 3. シャローチャンプ / 4. ドーンレーサー / 5. サトノボルテクス</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神4R</span>
-      <span class="race-name">2歳新馬</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1200m ダート</span>
-      <span class="race-meta">15頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">10 - 3 - 12</div>
-  <div class="res-detail">
-    <span class="res-item">単1.7倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">ナムラモモタロー</span>
-  <span class="pct">36%</span>
-  <span class="odds">単27.6 複4.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">ベルウッドスーパー</span>
-  <span class="pct">36%</span>
-  <span class="odds">単97.6 複13.9</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">テリオスベラ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単7.1 複1.6</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">4</span>
-  <span class="name">ダイユウエゾフジ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単204.1 複36.5</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">スイートモンブラン</span>
-  <span class="pct">36%</span>
-  <span class="odds">単20.6 複3.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 1. ナムラモモタロー</div>
-    <div class="bet-sub">相手: 2. ベルウッドスーパー / 3. テリオスベラ / 4. ダイユウエゾフジ / 5. スイートモンブラン</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神5R</span>
-      <span class="race-name">2歳新馬</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1600m 芝</span>
-      <span class="race-meta">14頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">10 - 5 - 1</div>
-  <div class="res-detail">
-    <span class="res-item">単2.8倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">キュールエポルト</span>
-  <span class="pct">36%</span>
-  <span class="odds">単59.8 複6.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">アリサ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単23.8 複3.5</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">ナンヨーカルチャー</span>
-  <span class="pct">36%</span>
-  <span class="odds">単31.3 複4.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">4</span>
-  <span class="name">ホワイトパンサー</span>
-  <span class="pct">36%</span>
-  <span class="odds">単33.9 複4.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">ジョリーエピキュア</span>
-  <span class="pct">36%</span>
-  <span class="odds">単2.4 複1.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 1. キュールエポルト</div>
-    <div class="bet-sub">相手: 2. アリサ / 3. ナンヨーカルチャー / 4. ホワイトパンサー / 5. ジョリーエピキュア</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神6R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">2000m 芝</span>
-      <span class="race-meta">11頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">10 - 5 - 7</div>
-  <div class="res-detail">
-    <span class="res-item">単14.8倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">4</span>
-  <span class="name">サラコスティ</span>
-  <span class="pct">42%</span>
-  <span class="odds">単5.5 複1.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">8</span>
-  <span class="name">アルペングロー</span>
-  <span class="pct">41%</span>
-  <span class="odds">単51.3 複7.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">メイショウショカツ</span>
-  <span class="pct">38%</span>
-  <span class="odds">単2.5 複1.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">5</span>
-  <span class="name">リガーレ</span>
-  <span class="pct">38%</span>
-  <span class="odds">単10.9 複2.5</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">7</span>
-  <span class="name">キッコベッロ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単3.4 複1.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 4. サラコスティ</div>
-    <div class="bet-sub">相手: 8. アルペングロー / 3. メイショウショカツ / 5. リガーレ / 7. キッコベッロ</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神7R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1800m ダート</span>
-      <span class="race-meta">12頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">9 - 11 - 1</div>
-  <div class="res-detail">
-    <span class="res-item">単20.8倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">9</span>
-  <span class="name">ユキノクラウン</span>
-  <span class="pct">41%</span>
-  <span class="odds">単20.8 複3.8</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">4</span>
-  <span class="name">テイエムスターラン</span>
-  <span class="pct">40%</span>
-  <span class="odds">単26.4 複4.2</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">12</span>
-  <span class="name">タイセイリアル</span>
-  <span class="pct">40%</span>
-  <span class="odds">単23.6 複5.5</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">11</span>
-  <span class="name">マーゴットバディ</span>
-  <span class="pct">39%</span>
-  <span class="odds">単6.2 複2.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">マコトアディントン</span>
-  <span class="pct">38%</span>
-  <span class="odds">単3.1 複1.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 9. ユキノクラウン</div>
-    <div class="bet-sub">相手: 4. テイエムスターラン / 12. タイセイリアル / 11. マーゴットバディ / 5. マコトアディントン</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神8R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1600m 芝</span>
-      <span class="race-meta">15頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">11 - 1 - 13</div>
-  <div class="res-detail">
-    <span class="res-item">単2.3倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">10</span>
-  <span class="name">グランドオーパス</span>
-  <span class="pct">41%</span>
-  <span class="odds">単5.8 複1.7</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">13</span>
-  <span class="name">パスコード</span>
-  <span class="pct">38%</span>
-  <span class="odds">単6.1 複1.5</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">1</span>
-  <span class="name">フェルギナス</span>
-  <span class="pct">38%</span>
-  <span class="odds">単9.3 複2.0</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">11</span>
-  <span class="name">リアンマヒナ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単2.3 複1.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">4</span>
-  <span class="name">スリラーナイト</span>
-  <span class="pct">36%</span>
-  <span class="odds">単40.8 複4.3</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 10. グランドオーパス</div>
-    <div class="bet-sub">相手: 13. パスコード / 1. フェルギナス / 11. リアンマヒナ / 4. スリラーナイト</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神9R</span>
-      <span class="race-name">夕月特別</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">2000m 芝</span>
-      <span class="race-meta">10頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">6 - 8 - 7</div>
-  <div class="res-detail">
-    <span class="res-item">単3.6倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">4</span>
-  <span class="name">セナスタイル</span>
-  <span class="pct">41%</span>
-  <span class="odds">単2.0 複1.1</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">1</span>
-  <span class="name">エバーグルーヴ</span>
-  <span class="pct">39%</span>
-  <span class="odds">単7.3 複1.5</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">5</span>
-  <span class="name">エアビッグマム</span>
-  <span class="pct">38%</span>
-  <span class="odds">単9.6 複1.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">6</span>
-  <span class="name">ガーネットフレア</span>
-  <span class="pct">37%</span>
-  <span class="odds">単3.6 複1.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">8</span>
-  <span class="name">ジェルブロア</span>
-  <span class="pct">29%</span>
-  <span class="odds">単16.0 複2.7</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 4. セナスタイル</div>
-    <div class="bet-sub">相手: 1. エバーグルーヴ / 5. エアビッグマム / 6. ガーネットフレア / 8. ジェルブロア</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神10R</span>
-      <span class="race-name">鳥取特別</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1800m ダート</span>
-      <span class="race-meta">15頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">12 - 5 - 2</div>
-  <div class="res-detail">
-    <span class="res-item">単3.6倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">2</span>
-  <span class="name">マシン</span>
-  <span class="pct">39%</span>
-  <span class="odds">単7.1 複1.9</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">11</span>
-  <span class="name">アートレスマインド</span>
-  <span class="pct">38%</span>
-  <span class="odds">単14.7 複3.0</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">ゼンエスポワール</span>
-  <span class="pct">37%</span>
-  <span class="odds">単5.0 複1.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">5</span>
-  <span class="name">ソルチェリア</span>
-  <span class="pct">34%</span>
-  <span class="odds">単3.4 複1.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">15</span>
-  <span class="name">テイエムパイロット</span>
-  <span class="pct">32%</span>
-  <span class="odds">単17.8 複3.7</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 2. マシン</div>
-    <div class="bet-sub">相手: 11. アートレスマインド / 3. ゼンエスポワール / 5. ソルチェリア / 15. テイエムパイロット</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神11R</span>
-      <span class="race-name">道頓堀S</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1200m 芝</span>
-      <span class="race-meta">16頭</span>
-    </div>
-  </div>
-  <div class="res-banner">
-  <div class="res-nums">4 - 3 - 2</div>
-  <div class="res-detail">
-    <span class="res-item">単6.4倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">2</span>
-  <span class="name">アサクサグレース</span>
-  <span class="pct">38%</span>
-  <span class="odds">単6.9 複2.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">7</span>
-  <span class="name">ディアドコス</span>
-  <span class="pct">32%</span>
-  <span class="odds">単9.2 複3.0</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">4</span>
-  <span class="name">インブロリオ</span>
-  <span class="pct">32%</span>
-  <span class="odds">単6.4 複1.9</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">3</span>
-  <span class="name">マリノトニトゥルス</span>
-  <span class="pct">29%</span>
-  <span class="odds">単20.8 複5.9</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">8</span>
-  <span class="name">アンビバレント</span>
-  <span class="pct">27%</span>
-  <span class="odds">単30.3 複7.4</span>
-  <span class="hit"><span class="miss">×</span></span>
-</div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 2. アサクサグレース</div>
-    <div class="bet-sub">相手: 7. ディアドコス / 4. インブロリオ / 3. マリノトニトゥルス / 8. アンビバレント</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神12R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
     </div>
     <div class="card-head-right">
       <span class="race-meta">1400m ダート</span>
       <span class="race-meta">15頭</span>
     </div>
   </div>
-  <div class="res-banner">
-  <div class="res-nums">3 - 5 - 1</div>
-  <div class="res-detail">
-    <span class="res-item">単1.6倍 ❌</span>
-    <span class="res-item">複- ❌</span>
-  </div>
-</div>
+  <div class="res-pending">結果待ち</div>
   <div class="horses"><div class="horse">
   <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">10</span>
-  <span class="name">ルクスコスモス</span>
-  <span class="pct">37%</span>
-  <span class="odds">単7.2 複1.8</span>
-  <span class="hit"><span class="miss">×</span></span>
+  <span class="num">1</span>
+  <span class="name">プッシュバーン</span>
+  <span class="pct">36%</span>
+  <span class="odds">単67.9 複6.1</span>
+  <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">5</span>
-  <span class="name">ワイズギャング</span>
-  <span class="pct">33%</span>
-  <span class="odds">単21.3 複2.7</span>
-  <span class="hit"><span class="miss">×</span></span>
+  <span class="num">2</span>
+  <span class="name">レッドレヴェリー</span>
+  <span class="pct">36%</span>
+  <span class="odds">単8.2 複2.5</span>
+  <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">2</span>
-  <span class="name">イーブンベター</span>
-  <span class="pct">32%</span>
-  <span class="odds">単28.2 複4.1</span>
-  <span class="hit"><span class="miss">×</span></span>
+  <span class="num">3</span>
+  <span class="name">ダノンアズール</span>
+  <span class="pct">36%</span>
+  <span class="odds">単9.7 複2.3</span>
+  <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#e07020">△</span>
-  <span class="num">14</span>
-  <span class="name">ペンテリコン</span>
-  <span class="pct">31%</span>
-  <span class="odds">単29.8 複3.9</span>
-  <span class="hit"><span class="miss">×</span></span>
+  <span class="num">4</span>
+  <span class="name">アイボリータワー</span>
+  <span class="pct">36%</span>
+  <span class="odds">単9.1 複2.5</span>
+  <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">3</span>
-  <span class="name">タイニーワンダー</span>
-  <span class="pct">28%</span>
-  <span class="odds">単1.6 複1.1</span>
-  <span class="hit"><span class="miss">×</span></span>
+  <span class="num">5</span>
+  <span class="name">ペアスターロード</span>
+  <span class="pct">36%</span>
+  <span class="odds">単5.9 複1.4</span>
+  <span class="hit"></span>
 </div></div>
-  <div class="bet bet-miss">
-    <div class="bet-title">3連単1着流しマルチ（36点）　❌ ハズレ</div>
-    <div class="bet-sub">軸: 10. ルクスコスモス</div>
-    <div class="bet-sub">相手: 5. ワイズギャング / 2. イーブンベター / 14. ペンテリコン / 3. タイニーワンダー</div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 1. プッシュバーン</div>
+    <div class="bet-sub">相手: 2. レッドレヴェリー / 3. ダノンアズール / 4. アイボリータワー / 5. ペアスターロード</div>
   </div>
-</div></div>
-</div><div class="tab-pane " id="dtab1">
-  
-  <div class="vtabs" id="vtabs-dtab1"><button class="vtab-btn active" onclick="showVtab('dtab1','vtab1_0')" id="btn-vtab1_0">阪神</button></div>
-  <div class="vtab-pane active" id="vtab1_0"><div class="card">
+</div><div class="card">
   <div class="card-head">
     <div class="card-head-left">
-      <span class="race-label">阪神1R</span>
+      <span class="race-label">京都2R</span>
       <span class="race-name">2歳未勝利</span>
     </div>
     <div class="card-head-right">
+      <span class="race-meta">1800m 芝</span>
+      <span class="race-meta">10頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">1</span>
+  <span class="name">イッペイ</span>
+  <span class="pct">37%</span>
+  <span class="odds">単8.8 複2.1</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">2</span>
+  <span class="name">レイディアントサン</span>
+  <span class="pct">37%</span>
+  <span class="odds">単77.4 複9.0</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">3</span>
+  <span class="name">メイショウジェード</span>
+  <span class="pct">37%</span>
+  <span class="odds">単4.4 複1.2</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">4</span>
+  <span class="name">レイデアルマス</span>
+  <span class="pct">37%</span>
+  <span class="odds">単27.8 複5.1</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">5</span>
+  <span class="name">コルサロ</span>
+  <span class="pct">37%</span>
+  <span class="odds">単5.4 複1.6</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 1. イッペイ</div>
+    <div class="bet-sub">相手: 2. レイディアントサン / 3. メイショウジェード / 4. レイデアルマス / 5. コルサロ</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">京都3R</span>
+      <span class="race-name">3歳以上1勝クラス</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">1400m ダート</span>
+      <span class="race-meta">16頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">11</span>
+  <span class="name">ヒルノプーリア</span>
+  <span class="pct">42%</span>
+  <span class="odds">単4.4 複1.2</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">1</span>
+  <span class="name">スターフュージョン</span>
+  <span class="pct">40%</span>
+  <span class="odds">単4.2 複1.3</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">4</span>
+  <span class="name">トゥインクルピカ</span>
+  <span class="pct">39%</span>
+  <span class="odds">単18.5 複7.2</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">2</span>
+  <span class="name">ワイズギャング</span>
+  <span class="pct">34%</span>
+  <span class="odds">単7.7 複2.3</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">7</span>
+  <span class="name">イーブンベター</span>
+  <span class="pct">32%</span>
+  <span class="odds">単16.8 複3.3</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 11. ヒルノプーリア</div>
+    <div class="bet-sub">相手: 1. スターフュージョン / 4. トゥインクルピカ / 2. ワイズギャング / 7. イーブンベター</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">京都4R</span>
+      <span class="race-name">2歳新馬</span>
+    </div>
+    <div class="card-head-right">
       <span class="race-meta">1800m ダート</span>
+      <span class="race-meta">14頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">1</span>
+  <span class="name">アルピグレン</span>
+  <span class="pct">36%</span>
+  <span class="odds">単15.8 複2.2</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">2</span>
+  <span class="name">ハイファイネスト</span>
+  <span class="pct">36%</span>
+  <span class="odds">単23.3 複6.3</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">3</span>
+  <span class="name">ビヨンドザスカイ</span>
+  <span class="pct">36%</span>
+  <span class="odds">単22.4 複5.3</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">4</span>
+  <span class="name">タンバゲッコー</span>
+  <span class="pct">36%</span>
+  <span class="odds">単21.8 複4.5</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">5</span>
+  <span class="name">モンサンブラヴール</span>
+  <span class="pct">36%</span>
+  <span class="odds">単60.0 複12.4</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 1. アルピグレン</div>
+    <div class="bet-sub">相手: 2. ハイファイネスト / 3. ビヨンドザスカイ / 4. タンバゲッコー / 5. モンサンブラヴール</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">京都5R</span>
+      <span class="race-name">2歳新馬</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">1600m 芝</span>
+      <span class="race-meta">16頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">1</span>
+  <span class="name">マルカクラック</span>
+  <span class="pct">35%</span>
+  <span class="odds">単8.8 複2.6</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">2</span>
+  <span class="name">トロフィーズ</span>
+  <span class="pct">35%</span>
+  <span class="odds">単11.8 複2.4</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">3</span>
+  <span class="name">ナリタトップライト</span>
+  <span class="pct">35%</span>
+  <span class="odds">単38.0 複6.9</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">4</span>
+  <span class="name">パンプルネル</span>
+  <span class="pct">35%</span>
+  <span class="odds">単10.8 複3.2</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">5</span>
+  <span class="name">ウィリーウィリー</span>
+  <span class="pct">35%</span>
+  <span class="odds">単35.1 複7.2</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 1. マルカクラック</div>
+    <div class="bet-sub">相手: 2. トロフィーズ / 3. ナリタトップライト / 4. パンプルネル / 5. ウィリーウィリー</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">京都6R</span>
+      <span class="race-name">3歳以上1勝クラス</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">2000m 芝</span>
+      <span class="race-meta">17頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">4</span>
+  <span class="name">ガウディ</span>
+  <span class="pct">40%</span>
+  <span class="odds">単12.7 複4.6</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">14</span>
+  <span class="name">サンダーバード</span>
+  <span class="pct">40%</span>
+  <span class="odds">単7.8 複2.5</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">6</span>
+  <span class="name">ページターナー</span>
+  <span class="pct">37%</span>
+  <span class="odds">単23.8 複7.0</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">2</span>
+  <span class="name">メイショウショカツ</span>
+  <span class="pct">37%</span>
+  <span class="odds">単3.8 複1.4</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">11</span>
+  <span class="name">ロットブラータ</span>
+  <span class="pct">37%</span>
+  <span class="odds">単43.2 複7.7</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 4. ガウディ</div>
+    <div class="bet-sub">相手: 14. サンダーバード / 6. ページターナー / 2. メイショウショカツ / 11. ロットブラータ</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">京都7R</span>
+      <span class="race-name">3歳以上1勝クラス</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">1400m ダート</span>
+      <span class="race-meta">16頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">14</span>
+  <span class="name">ペプチドレオン</span>
+  <span class="pct">41%</span>
+  <span class="odds">単6.2 複1.5</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">7</span>
+  <span class="name">ブロンテス</span>
+  <span class="pct">39%</span>
+  <span class="odds">単2.3 複1.4</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">13</span>
+  <span class="name">セヴェンヌ</span>
+  <span class="pct">39%</span>
+  <span class="odds">単33.8 複4.9</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">12</span>
+  <span class="name">クリコファルコン</span>
+  <span class="pct">36%</span>
+  <span class="odds">単110.7 複14.4</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">8</span>
+  <span class="name">リーグナイト</span>
+  <span class="pct">35%</span>
+  <span class="odds">単19.7 複4.6</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 14. ペプチドレオン</div>
+    <div class="bet-sub">相手: 7. ブロンテス / 13. セヴェンヌ / 12. クリコファルコン / 8. リーグナイト</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">京都8R</span>
+      <span class="race-name">3歳以上2勝クラス</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">2000m 芝</span>
+      <span class="race-meta">11頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">5</span>
+  <span class="name">ブレットパス</span>
+  <span class="pct">43%</span>
+  <span class="odds">単5.7 複1.4</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">7</span>
+  <span class="name">イベントホライゾン</span>
+  <span class="pct">42%</span>
+  <span class="odds">単4.0 複1.2</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">4</span>
+  <span class="name">サトノアイボリー</span>
+  <span class="pct">39%</span>
+  <span class="odds">単5.4 複1.4</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">6</span>
+  <span class="name">サミダレナイツ</span>
+  <span class="pct">38%</span>
+  <span class="odds">単19.3 複4.1</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">8</span>
+  <span class="name">ヨシヒロ</span>
+  <span class="pct">37%</span>
+  <span class="odds">単112.7 複10.7</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 5. ブレットパス</div>
+    <div class="bet-sub">相手: 7. イベントホライゾン / 4. サトノアイボリー / 6. サミダレナイツ / 8. ヨシヒロ</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">京都9R</span>
+      <span class="race-name">りんどう賞</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">1400m 芝</span>
       <span class="race-meta">8頭</span>
     </div>
   </div>
@@ -1652,207 +612,525 @@ body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #
   <div class="horses"><div class="horse">
   <span class="mark" style="color:#e63946">◎</span>
   <span class="num">1</span>
-  <span class="name">ハイネスプラウド</span>
+  <span class="name">ベニバナ</span>
   <span class="pct">37%</span>
-  <span class="odds">単27.6 複2.3</span>
+  <span class="odds">単10.4 複2.1</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#457b9d">○</span>
   <span class="num">2</span>
-  <span class="name">マコトブリッツ</span>
+  <span class="name">エストレアボニータ</span>
   <span class="pct">37%</span>
-  <span class="odds">単21.6 複2.3</span>
+  <span class="odds">単7.3 複1.3</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#2d6a4f">▲</span>
   <span class="num">3</span>
-  <span class="name">ポカポカヨウキ</span>
+  <span class="name">ギャルズマインド</span>
   <span class="pct">37%</span>
-  <span class="odds">単2.0 複1.1</span>
+  <span class="odds">単4.8 複1.1</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#e07020">△</span>
   <span class="num">4</span>
-  <span class="name">ワンダーラヴグッド</span>
+  <span class="name">セイウンリリーナ</span>
   <span class="pct">37%</span>
-  <span class="odds">単56.7 複4.4</span>
+  <span class="odds">単14.8 複3.3</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#7b5ea7">☆</span>
   <span class="num">5</span>
-  <span class="name">ガヤーズサムライ</span>
+  <span class="name">ショウナンカノア</span>
   <span class="pct">37%</span>
-  <span class="odds">単10.4 複1.4</span>
+  <span class="odds">単10.3 複2.8</span>
   <span class="hit"></span>
 </div></div>
   <div class="bet ">
     <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 1. ハイネスプラウド</div>
-    <div class="bet-sub">相手: 2. マコトブリッツ / 3. ポカポカヨウキ / 4. ワンダーラヴグッド / 5. ガヤーズサムライ</div>
+    <div class="bet-sub">軸: 1. ベニバナ</div>
+    <div class="bet-sub">相手: 2. エストレアボニータ / 3. ギャルズマインド / 4. セイウンリリーナ / 5. ショウナンカノア</div>
   </div>
 </div><div class="card">
   <div class="card-head">
     <div class="card-head-left">
-      <span class="race-label">阪神2R</span>
-      <span class="race-name">2歳未勝利</span>
+      <span class="race-label">京都10R</span>
+      <span class="race-name">大山崎S</span>
     </div>
     <div class="card-head-right">
-      <span class="race-meta">1600m 芝</span>
-      <span class="race-meta">10頭</span>
+      <span class="race-meta">1200m ダート</span>
+      <span class="race-meta">16頭</span>
     </div>
   </div>
   <div class="res-pending">結果待ち</div>
   <div class="horses"><div class="horse">
   <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">マリアンデール</span>
-  <span class="pct">37%</span>
-  <span class="odds">単3.6 複1.6</span>
+  <span class="num">4</span>
+  <span class="name">イマージョン</span>
+  <span class="pct">36%</span>
+  <span class="odds">単22.6 複4.9</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">ジーティーハルカゼ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単25.6 複3.3</span>
+  <span class="num">3</span>
+  <span class="name">ハヤテノツバサ</span>
+  <span class="pct">35%</span>
+  <span class="odds">単5.1 複1.9</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">ハマナスノサクコロ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単4.8 複1.8</span>
+  <span class="num">6</span>
+  <span class="name">ウルスクローム</span>
+  <span class="pct">33%</span>
+  <span class="odds">単3.9 複1.3</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#e07020">△</span>
-  <span class="num">4</span>
-  <span class="name">ドリームリボン</span>
-  <span class="pct">37%</span>
-  <span class="odds">単44.4 複13.9</span>
+  <span class="num">1</span>
+  <span class="name">ヤマニンシュラ</span>
+  <span class="pct">32%</span>
+  <span class="odds">単24.5 複6.7</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">リアンフィニ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単4.5 複1.2</span>
+  <span class="num">8</span>
+  <span class="name">アメリカンチケット</span>
+  <span class="pct">31%</span>
+  <span class="odds">単13.1 複3.8</span>
   <span class="hit"></span>
 </div></div>
   <div class="bet ">
     <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 1. マリアンデール</div>
-    <div class="bet-sub">相手: 2. ジーティーハルカゼ / 3. ハマナスノサクコロ / 4. ドリームリボン / 5. リアンフィニ</div>
+    <div class="bet-sub">軸: 4. イマージョン</div>
+    <div class="bet-sub">相手: 3. ハヤテノツバサ / 6. ウルスクローム / 1. ヤマニンシュラ / 8. アメリカンチケット</div>
   </div>
 </div><div class="card">
   <div class="card-head">
     <div class="card-head-left">
-      <span class="race-label">阪神3R</span>
-      <span class="race-name">2歳未勝利</span>
+      <span class="race-label">京都11R</span>
+      <span class="race-name">オパールS</span>
     </div>
     <div class="card-head-right">
       <span class="race-meta">1200m 芝</span>
-      <span class="race-meta">13頭</span>
+      <span class="race-meta">18頭</span>
     </div>
   </div>
   <div class="res-pending">結果待ち</div>
   <div class="horses"><div class="horse">
   <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">アトランタ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単15.2 複3.1</span>
+  <span class="num">15</span>
+  <span class="name">タガノアラリア</span>
+  <span class="pct">38%</span>
+  <span class="odds">単31.0 複5.1</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">メイショウレイナ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単41.2 複6.1</span>
+  <span class="num">18</span>
+  <span class="name">ディアナザール</span>
+  <span class="pct">38%</span>
+  <span class="odds">単5.8 複2.3</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#2d6a4f">▲</span>
   <span class="num">3</span>
-  <span class="name">コジアン</span>
-  <span class="pct">36%</span>
-  <span class="odds">単7.7 複1.8</span>
+  <span class="name">タマモイカロス</span>
+  <span class="pct">35%</span>
+  <span class="odds">単8.2 複2.5</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#e07020">△</span>
-  <span class="num">4</span>
-  <span class="name">エルダークローネ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単7.5 複1.8</span>
+  <span class="num">6</span>
+  <span class="name">リリージョワ</span>
+  <span class="pct">35%</span>
+  <span class="odds">単6.9 複3.5</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">ケンシロウワールド</span>
-  <span class="pct">36%</span>
-  <span class="odds">単11.8 複2.9</span>
+  <span class="num">17</span>
+  <span class="name">ヨシノイースター</span>
+  <span class="pct">35%</span>
+  <span class="odds">単13.8 複4.7</span>
   <span class="hit"></span>
 </div></div>
   <div class="bet ">
     <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 1. アトランタ</div>
-    <div class="bet-sub">相手: 2. メイショウレイナ / 3. コジアン / 4. エルダークローネ / 5. ケンシロウワールド</div>
+    <div class="bet-sub">軸: 15. タガノアラリア</div>
+    <div class="bet-sub">相手: 18. ディアナザール / 3. タマモイカロス / 6. リリージョワ / 17. ヨシノイースター</div>
   </div>
 </div><div class="card">
   <div class="card-head">
     <div class="card-head-left">
-      <span class="race-label">阪神6R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
+      <span class="race-label">京都12R</span>
+      <span class="race-name">3歳以上2勝クラス</span>
     </div>
     <div class="card-head-right">
-      <span class="race-meta">2000m ダート</span>
+      <span class="race-meta">1800m ダート</span>
+      <span class="race-meta">14頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">7</span>
+  <span class="name">タンテドヴィーヴル</span>
+  <span class="pct">42%</span>
+  <span class="odds">単8.8 複2.0</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">13</span>
+  <span class="name">メイショウコシュウ</span>
+  <span class="pct">39%</span>
+  <span class="odds">単7.0 複3.1</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">14</span>
+  <span class="name">システマソラー</span>
+  <span class="pct">38%</span>
+  <span class="odds">単4.5 複1.6</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">6</span>
+  <span class="name">リヒトミューレ</span>
+  <span class="pct">32%</span>
+  <span class="odds">単10.2 複2.9</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">11</span>
+  <span class="name">ジョータルマエ</span>
+  <span class="pct">32%</span>
+  <span class="odds">単11.3 複2.1</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 7. タンテドヴィーヴル</div>
+    <div class="bet-sub">相手: 13. メイショウコシュウ / 14. システマソラー / 6. リヒトミューレ / 11. ジョータルマエ</div>
+  </div>
+</div></div><div class="vtab-pane " id="vtab0_1"><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">東京1R</span>
+      <span class="race-name">2歳未勝利</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">1600m ダート</span>
       <span class="race-meta">15頭</span>
     </div>
   </div>
   <div class="res-pending">結果待ち</div>
   <div class="horses"><div class="horse">
   <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">14</span>
-  <span class="name">フィサブロス</span>
-  <span class="pct">39%</span>
-  <span class="odds">単12.2 複3.1</span>
+  <span class="num">1</span>
+  <span class="name">アークレイリ</span>
+  <span class="pct">36%</span>
+  <span class="odds">単43.9 複4.1</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">6</span>
-  <span class="name">エイユーファイヤー</span>
-  <span class="pct">38%</span>
-  <span class="odds">単7.3 複1.7</span>
+  <span class="num">2</span>
+  <span class="name">ディアファザー</span>
+  <span class="pct">36%</span>
+  <span class="odds">単106.8 複7.4</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">10</span>
-  <span class="name">ロットブラータ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単11.2 複3.7</span>
+  <span class="num">3</span>
+  <span class="name">サードアイ</span>
+  <span class="pct">36%</span>
+  <span class="odds">単56.1 複4.8</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#e07020">△</span>
-  <span class="num">11</span>
-  <span class="name">メイショウジンライ</span>
+  <span class="num">4</span>
+  <span class="name">パレスラン</span>
   <span class="pct">36%</span>
-  <span class="odds">単4.0 複1.8</span>
+  <span class="odds">単18.1 複2.3</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#7b5ea7">☆</span>
   <span class="num">5</span>
-  <span class="name">ジーティーアメリカ</span>
+  <span class="name">ワンダーマーベル</span>
   <span class="pct">36%</span>
-  <span class="odds">単15.1 複5.0</span>
+  <span class="odds">単7.4 複1.3</span>
   <span class="hit"></span>
 </div></div>
   <div class="bet ">
     <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 14. フィサブロス</div>
-    <div class="bet-sub">相手: 6. エイユーファイヤー / 10. ロットブラータ / 11. メイショウジンライ / 5. ジーティーアメリカ</div>
+    <div class="bet-sub">軸: 1. アークレイリ</div>
+    <div class="bet-sub">相手: 2. ディアファザー / 3. サードアイ / 4. パレスラン / 5. ワンダーマーベル</div>
   </div>
 </div><div class="card">
   <div class="card-head">
     <div class="card-head-left">
-      <span class="race-label">阪神7R</span>
+      <span class="race-label">東京2R</span>
+      <span class="race-name">2歳未勝利</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">2000m 芝</span>
+      <span class="race-meta">11頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">8</span>
+  <span class="name">シアルナーレ</span>
+  <span class="pct">37%</span>
+  <span class="odds">単4.6 複1.4</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">2</span>
+  <span class="name">ラルコ</span>
+  <span class="pct">37%</span>
+  <span class="odds">単17.4 複3.3</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">3</span>
+  <span class="name">ゼノスフィア</span>
+  <span class="pct">37%</span>
+  <span class="odds">単11.7 複1.8</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">4</span>
+  <span class="name">インテルラゴス</span>
+  <span class="pct">37%</span>
+  <span class="odds">単3.6 複1.5</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">5</span>
+  <span class="name">トパーズプレミア</span>
+  <span class="pct">37%</span>
+  <span class="odds">単42.8 複5.1</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 8. シアルナーレ</div>
+    <div class="bet-sub">相手: 2. ラルコ / 3. ゼノスフィア / 4. インテルラゴス / 5. トパーズプレミア</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">東京3R</span>
+      <span class="race-name">2歳新馬</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">1400m 芝</span>
+      <span class="race-meta">18頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">1</span>
+  <span class="name">リアシュアー</span>
+  <span class="pct">35%</span>
+  <span class="odds">単72.2 複13.3</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">2</span>
+  <span class="name">ソードオブステート</span>
+  <span class="pct">35%</span>
+  <span class="odds">単2.3 複1.4</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">3</span>
+  <span class="name">アオイレイラ</span>
+  <span class="pct">35%</span>
+  <span class="odds">単67.0 複14.6</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">4</span>
+  <span class="name">ニシノナイトライト</span>
+  <span class="pct">35%</span>
+  <span class="odds">単21.3 複3.9</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">5</span>
+  <span class="name">ローズガーデン</span>
+  <span class="pct">35%</span>
+  <span class="odds">単38.1 複6.2</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 1. リアシュアー</div>
+    <div class="bet-sub">相手: 2. ソードオブステート / 3. アオイレイラ / 4. ニシノナイトライト / 5. ローズガーデン</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">東京4R</span>
+      <span class="race-name">3歳以上障害OP</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta"></span>
+      <span class="race-meta">12頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">11</span>
+  <span class="name">ハイウェイスター</span>
+  <span class="pct">41%</span>
+  <span class="odds">単18.0 複2.6</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">7</span>
+  <span class="name">ブラックバラード</span>
+  <span class="pct">38%</span>
+  <span class="odds">単10.4 複3.7</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">9</span>
+  <span class="name">サトノエピック</span>
+  <span class="pct">36%</span>
+  <span class="odds">単3.9 複1.9</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">12</span>
+  <span class="name">ロードオールライト</span>
+  <span class="pct">34%</span>
+  <span class="odds">単9.4 複2.1</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">2</span>
+  <span class="name">メイショウソウセキ</span>
+  <span class="pct">32%</span>
+  <span class="odds">単8.8 複2.1</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 11. ハイウェイスター</div>
+    <div class="bet-sub">相手: 7. ブラックバラード / 9. サトノエピック / 12. ロードオールライト / 2. メイショウソウセキ</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">東京5R</span>
+      <span class="race-name">2歳新馬</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">1800m 芝</span>
+      <span class="race-meta">11頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">1</span>
+  <span class="name">センチュリースカイ</span>
+  <span class="pct">37%</span>
+  <span class="odds">単24.2 複2.7</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">2</span>
+  <span class="name">ロードディグニティ</span>
+  <span class="pct">37%</span>
+  <span class="odds">単6.2 複1.6</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">3</span>
+  <span class="name">ヴァルカモニカ</span>
+  <span class="pct">37%</span>
+  <span class="odds">単1.6 複1.1</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">4</span>
+  <span class="name">ビタークレス</span>
+  <span class="pct">37%</span>
+  <span class="odds">単67.0 複6.8</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">5</span>
+  <span class="name">スキエンティア</span>
+  <span class="pct">37%</span>
+  <span class="odds">単56.2 複6.0</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 1. センチュリースカイ</div>
+    <div class="bet-sub">相手: 2. ロードディグニティ / 3. ヴァルカモニカ / 4. ビタークレス / 5. スキエンティア</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">東京6R</span>
+      <span class="race-name">3歳以上1勝クラス</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">1400m ダート</span>
+      <span class="race-meta">16頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">1</span>
+  <span class="name">ミヤエスケープ</span>
+  <span class="pct">41%</span>
+  <span class="odds">単13.2 複2.7</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">15</span>
+  <span class="name">オテンバプリンセス</span>
+  <span class="pct">40%</span>
+  <span class="odds">単5.5 複2.0</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">11</span>
+  <span class="name">オーシャンステラ</span>
+  <span class="pct">40%</span>
+  <span class="odds">単11.3 複2.7</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">13</span>
+  <span class="name">ローズブーケ</span>
+  <span class="pct">40%</span>
+  <span class="odds">単16.6 複3.8</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">8</span>
+  <span class="name">クラリネットソナタ</span>
+  <span class="pct">39%</span>
+  <span class="odds">単9.5 複2.8</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 1. ミヤエスケープ</div>
+    <div class="bet-sub">相手: 15. オテンバプリンセス / 11. オーシャンステラ / 13. ローズブーケ / 8. クラリネットソナタ</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">東京7R</span>
       <span class="race-name">3歳以上1勝クラス</span>
     </div>
     <div class="card-head-right">
@@ -1863,843 +1141,419 @@ body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #
   <div class="res-pending">結果待ち</div>
   <div class="horses"><div class="horse">
   <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">2</span>
-  <span class="name">ダンデノン</span>
-  <span class="pct">40%</span>
-  <span class="odds">単4.0 複2.1</span>
+  <span class="num">14</span>
+  <span class="name">ワディアルリヤハ</span>
+  <span class="pct">43%</span>
+  <span class="odds">単11.9 複2.6</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">11</span>
-  <span class="name">ベルサ</span>
+  <span class="num">7</span>
+  <span class="name">アイアンパイク</span>
   <span class="pct">40%</span>
-  <span class="odds">単11.2 複3.2</span>
+  <span class="odds">単7.6 複2.3</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">17</span>
-  <span class="name">メイクワンズデイ</span>
-  <span class="pct">40%</span>
-  <span class="odds">単11.4 複2.6</span>
+  <span class="num">2</span>
+  <span class="name">グリオンヴール</span>
+  <span class="pct">37%</span>
+  <span class="odds">単2.7 複1.3</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#e07020">△</span>
-  <span class="num">12</span>
-  <span class="name">ケールハイム</span>
+  <span class="num">9</span>
+  <span class="name">ソナタン</span>
   <span class="pct">36%</span>
-  <span class="odds">単5.1 複2.1</span>
+  <span class="odds">単42.3 複9.8</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">3</span>
-  <span class="name">ベルセクレト</span>
+  <span class="num">15</span>
+  <span class="name">コルチェスター</span>
   <span class="pct">35%</span>
-  <span class="odds">単12.4 複4.0</span>
+  <span class="odds">単35.2 複7.2</span>
   <span class="hit"></span>
 </div></div>
   <div class="bet ">
     <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 2. ダンデノン</div>
-    <div class="bet-sub">相手: 11. ベルサ / 17. メイクワンズデイ / 12. ケールハイム / 3. ベルセクレト</div>
+    <div class="bet-sub">軸: 14. ワディアルリヤハ</div>
+    <div class="bet-sub">相手: 7. アイアンパイク / 2. グリオンヴール / 9. ソナタン / 15. コルチェスター</div>
   </div>
 </div><div class="card">
   <div class="card-head">
     <div class="card-head-left">
-      <span class="race-label">阪神8R</span>
+      <span class="race-label">東京8R</span>
       <span class="race-name">3歳以上1勝クラス</span>
     </div>
     <div class="card-head-right">
-      <span class="race-meta">1800m ダート</span>
+      <span class="race-meta">1600m ダート</span>
+      <span class="race-meta">16頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">3</span>
+  <span class="name">マサッチェハマー</span>
+  <span class="pct">41%</span>
+  <span class="odds">単15.1 複2.6</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">2</span>
+  <span class="name">プレースメント</span>
+  <span class="pct">40%</span>
+  <span class="odds">単1.6 複1.1</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">14</span>
+  <span class="name">コーシューパンジャ</span>
+  <span class="pct">35%</span>
+  <span class="odds">単13.3 複2.2</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">16</span>
+  <span class="name">サトノシャムロック</span>
+  <span class="pct">35%</span>
+  <span class="odds">単39.0 複5.5</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">5</span>
+  <span class="name">エドワードバローズ</span>
+  <span class="pct">34%</span>
+  <span class="odds">単19.7 複2.8</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 3. マサッチェハマー</div>
+    <div class="bet-sub">相手: 2. プレースメント / 14. コーシューパンジャ / 16. サトノシャムロック / 5. エドワードバローズ</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">東京9R</span>
+      <span class="race-name">八ケ岳特別</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">1800m 芝</span>
       <span class="race-meta">12頭</span>
     </div>
   </div>
   <div class="res-pending">結果待ち</div>
   <div class="horses"><div class="horse">
   <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">4</span>
-  <span class="name">アメリカンバー</span>
-  <span class="pct">40%</span>
-  <span class="odds">単8.5 複2.1</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">3</span>
-  <span class="name">ロードアルディート</span>
-  <span class="pct">40%</span>
-  <span class="odds">単3.5 複1.4</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">6</span>
-  <span class="name">ディニテ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単4.1 複2.5</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">10</span>
-  <span class="name">エアフォースワン</span>
-  <span class="pct">34%</span>
-  <span class="odds">単23.2 複3.8</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">メイショウカスガイ</span>
-  <span class="pct">29%</span>
-  <span class="odds">単13.5 複2.3</span>
-  <span class="hit"></span>
-</div></div>
-  <div class="bet ">
-    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 4. アメリカンバー</div>
-    <div class="bet-sub">相手: 3. ロードアルディート / 6. ディニテ / 10. エアフォースワン / 5. メイショウカスガイ</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神9R</span>
-      <span class="race-name">新涼特別</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1400m ダート</span>
-      <span class="race-meta">16頭</span>
-    </div>
-  </div>
-  <div class="res-pending">結果待ち</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">12</span>
-  <span class="name">ピカラ</span>
-  <span class="pct">42%</span>
-  <span class="odds">単3.9 複1.3</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">3</span>
-  <span class="name">ポートデラメール</span>
-  <span class="pct">41%</span>
-  <span class="odds">単3.8 複1.5</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">13</span>
-  <span class="name">アンビシャスヨシノ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単14.9 複3.1</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">9</span>
-  <span class="name">スターオブロンドン</span>
-  <span class="pct">36%</span>
-  <span class="odds">単33.8 複5.1</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">14</span>
-  <span class="name">ヤマニンバロネス</span>
-  <span class="pct">35%</span>
-  <span class="odds">単7.2 複2.5</span>
-  <span class="hit"></span>
-</div></div>
-  <div class="bet ">
-    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 12. ピカラ</div>
-    <div class="bet-sub">相手: 3. ポートデラメール / 13. アンビシャスヨシノ / 9. スターオブロンドン / 14. ヤマニンバロネス</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神10R</span>
-      <span class="race-name">キタサンブラックC</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">2200m 芝</span>
-      <span class="race-meta">16頭</span>
-    </div>
-  </div>
-  <div class="res-pending">結果待ち</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">11</span>
-  <span class="name">ジョイボーイ</span>
-  <span class="pct">41%</span>
-  <span class="odds">単10.7 複3.0</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">16</span>
-  <span class="name">ロードガレリア</span>
-  <span class="pct">40%</span>
-  <span class="odds">単19.8 複3.6</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">15</span>
-  <span class="name">ベトルス</span>
-  <span class="pct">38%</span>
-  <span class="odds">単9.5 複2.8</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">9</span>
-  <span class="name">ファームツエンティ</span>
-  <span class="pct">38%</span>
-  <span class="odds">単15.6 複3.9</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">1</span>
-  <span class="name">キタサンハナビラ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単12.6 複4.0</span>
-  <span class="hit"></span>
-</div></div>
-  <div class="bet ">
-    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 11. ジョイボーイ</div>
-    <div class="bet-sub">相手: 16. ロードガレリア / 15. ベトルス / 9. ファームツエンティ / 1. キタサンハナビラ</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">阪神11R</span>
-      <span class="race-name">神戸新聞杯</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">2400m 芝</span>
-      <span class="race-meta">11頭</span>
-    </div>
-  </div>
-  <div class="res-pending">結果待ち</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">3</span>
-  <span class="name">ゴーラッキー</span>
-  <span class="pct">42%</span>
-  <span class="odds">単12.2 複1.8</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">10</span>
-  <span class="name">カフジエメンタール</span>
-  <span class="pct">42%</span>
-  <span class="odds">単31.5 複3.5</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">1</span>
-  <span class="name">ロブチェン</span>
-  <span class="pct">40%</span>
-  <span class="odds">単1.4 複1.1</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
   <span class="num">8</span>
-  <span class="name">シートゥサミット</span>
-  <span class="pct">40%</span>
-  <span class="odds">単73.3 複6.5</span>
+  <span class="name">ドッグウッド</span>
+  <span class="pct">38%</span>
+  <span class="odds">単12.3 複2.2</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">10</span>
+  <span class="name">ノビリシマビジョン</span>
+  <span class="pct">38%</span>
+  <span class="odds">単7.6 複2.1</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">4</span>
+  <span class="name">フィールドノート</span>
+  <span class="pct">38%</span>
+  <span class="odds">単3.2 複1.1</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">9</span>
+  <span class="name">ファムクラジューズ</span>
+  <span class="pct">33%</span>
+  <span class="odds">単8.1 複2.4</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">2</span>
-  <span class="name">エイシンインアウト</span>
-  <span class="pct">39%</span>
-  <span class="odds">単14.2 複2.4</span>
+  <span class="num">7</span>
+  <span class="name">ミッキージャンプ</span>
+  <span class="pct">32%</span>
+  <span class="odds">単9.4 複2.3</span>
   <span class="hit"></span>
 </div></div>
   <div class="bet ">
     <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 3. ゴーラッキー</div>
-    <div class="bet-sub">相手: 10. カフジエメンタール / 1. ロブチェン / 8. シートゥサミット / 2. エイシンインアウト</div>
+    <div class="bet-sub">軸: 8. ドッグウッド</div>
+    <div class="bet-sub">相手: 10. ノビリシマビジョン / 4. フィールドノート / 9. ファムクラジューズ / 7. ミッキージャンプ</div>
   </div>
 </div><div class="card">
   <div class="card-head">
     <div class="card-head-left">
-      <span class="race-label">阪神12R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
+      <span class="race-label">東京10R</span>
+      <span class="race-name">白秋S</span>
     </div>
     <div class="card-head-right">
-      <span class="race-meta">1400m ダート</span>
+      <span class="race-meta">1400m 芝</span>
+      <span class="race-meta">18頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">5</span>
+  <span class="name">レッドキングリー</span>
+  <span class="pct">42%</span>
+  <span class="odds">単4.0 複1.8</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">18</span>
+  <span class="name">ヒシアマン</span>
+  <span class="pct">38%</span>
+  <span class="odds">単11.7 複2.7</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">1</span>
+  <span class="name">グーテンベルク</span>
+  <span class="pct">35%</span>
+  <span class="odds">単14.0 複3.7</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
+  <span class="num">3</span>
+  <span class="name">ホウオウシェリー</span>
+  <span class="pct">34%</span>
+  <span class="odds">単7.3 複2.2</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">17</span>
+  <span class="name">シャイフ</span>
+  <span class="pct">33%</span>
+  <span class="odds">単13.8 複3.5</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 5. レッドキングリー</div>
+    <div class="bet-sub">相手: 18. ヒシアマン / 1. グーテンベルク / 3. ホウオウシェリー / 17. シャイフ</div>
+  </div>
+</div><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">東京11R</span>
+      <span class="race-name">グリーンチャンネルC</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">1600m ダート</span>
       <span class="race-meta">15頭</span>
     </div>
   </div>
   <div class="res-pending">結果待ち</div>
   <div class="horses"><div class="horse">
   <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">5</span>
-  <span class="name">ホットシート</span>
-  <span class="pct">40%</span>
-  <span class="odds">単6.2 複1.9</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">6</span>
-  <span class="name">ジャカルタバオ</span>
-  <span class="pct">35%</span>
-  <span class="odds">単9.8 複3.5</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">9</span>
-  <span class="name">エイシンティザー</span>
-  <span class="pct">32%</span>
-  <span class="odds">単3.5 複1.3</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">2</span>
-  <span class="name">シャープインサイト</span>
-  <span class="pct">31%</span>
-  <span class="odds">単58.3 複9.8</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">10</span>
-  <span class="name">リン</span>
-  <span class="pct">28%</span>
-  <span class="odds">単6.5 複2.2</span>
-  <span class="hit"></span>
-</div></div>
-  <div class="bet ">
-    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 5. ホットシート</div>
-    <div class="bet-sub">相手: 6. ジャカルタバオ / 9. エイシンティザー / 2. シャープインサイト / 10. リン</div>
-  </div>
-</div></div>
-</div><div class="tab-pane " id="dtab2">
-  
-  <div class="vtabs" id="vtabs-dtab2"><button class="vtab-btn active" onclick="showVtab('dtab2','vtab2_0')" id="btn-vtab2_0">中山</button></div>
-  <div class="vtab-pane active" id="vtab2_0"><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山1R</span>
-      <span class="race-name">3歳以上障害未勝利</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta"></span>
-      <span class="race-meta">14頭</span>
-    </div>
-  </div>
-  <div class="res-pending">結果待ち</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">9</span>
-  <span class="name">アバットゥータ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単6.8 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">5</span>
-  <span class="name">ゴーツウキリシマ</span>
-  <span class="pct">29%</span>
-  <span class="odds">単13.7 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">2</span>
-  <span class="name">カルマンフィルター</span>
-  <span class="pct">28%</span>
-  <span class="odds">単9.7 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">8</span>
-  <span class="name">バンデルオーラ</span>
-  <span class="pct">27%</span>
-  <span class="odds">単15.2 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">12</span>
-  <span class="name">ニシノブレイゼスト</span>
-  <span class="pct">25%</span>
-  <span class="odds">単17.5 複-</span>
-  <span class="hit"></span>
-</div></div>
-  <div class="bet ">
-    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 9. アバットゥータ</div>
-    <div class="bet-sub">相手: 5. ゴーツウキリシマ / 2. カルマンフィルター / 8. バンデルオーラ / 12. ニシノブレイゼスト</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山2R</span>
-      <span class="race-name">2歳未勝利</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1200m 芝</span>
-      <span class="race-meta">14頭</span>
-    </div>
-  </div>
-  <div class="res-pending">結果待ち</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">スノーキャップ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単51.4 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">ゴータマ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単21.0 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
   <span class="num">3</span>
-  <span class="name">ナナレイ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単29.8 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">4</span>
-  <span class="name">スペシャルサンクス</span>
-  <span class="pct">36%</span>
-  <span class="odds">単6.5 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">ナリタライズ</span>
-  <span class="pct">36%</span>
-  <span class="odds">単13.1 複-</span>
-  <span class="hit"></span>
-</div></div>
-  <div class="bet ">
-    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 1. スノーキャップ</div>
-    <div class="bet-sub">相手: 2. ゴータマ / 3. ナナレイ / 4. スペシャルサンクス / 5. ナリタライズ</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山3R</span>
-      <span class="race-name">2歳未勝利</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1200m ダート</span>
-      <span class="race-meta">11頭</span>
-    </div>
-  </div>
-  <div class="res-pending">結果待ち</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">1</span>
-  <span class="name">ビスクヴィート</span>
-  <span class="pct">37%</span>
-  <span class="odds">単26.4 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">モミスケ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単28.7 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">ソウラスフロス</span>
-  <span class="pct">37%</span>
-  <span class="odds">単8.2 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">5</span>
-  <span class="name">ドナビッグベン</span>
-  <span class="pct">37%</span>
-  <span class="odds">単2.6 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">7</span>
-  <span class="name">スウィット</span>
-  <span class="pct">37%</span>
-  <span class="odds">単9.5 複-</span>
-  <span class="hit"></span>
-</div></div>
-  <div class="bet ">
-    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 1. ビスクヴィート</div>
-    <div class="bet-sub">相手: 2. モミスケ / 3. ソウラスフロス / 5. ドナビッグベン / 7. スウィット</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山4R</span>
-      <span class="race-name">2歳未勝利</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1800m 芝</span>
-      <span class="race-meta">10頭</span>
-    </div>
-  </div>
-  <div class="res-pending">結果待ち</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">6</span>
-  <span class="name">クシェドゥソレイユ</span>
-  <span class="pct">39%</span>
-  <span class="odds">単2.9 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">1</span>
-  <span class="name">サンアンドスターズ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単149.5 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">2</span>
-  <span class="name">マイネルアルディ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単52.6 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">3</span>
-  <span class="name">アニエーネ</span>
-  <span class="pct">37%</span>
-  <span class="odds">単4.4 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">4</span>
-  <span class="name">キャピタルストーン</span>
-  <span class="pct">37%</span>
-  <span class="odds">単3.2 複-</span>
-  <span class="hit"></span>
-</div></div>
-  <div class="bet ">
-    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 6. クシェドゥソレイユ</div>
-    <div class="bet-sub">相手: 1. サンアンドスターズ / 2. マイネルアルディ / 3. アニエーネ / 4. キャピタルストーン</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山7R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1800m ダート</span>
-      <span class="race-meta">14頭</span>
-    </div>
-  </div>
-  <div class="res-pending">結果待ち</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">13</span>
-  <span class="name">ナックスプレンダー</span>
-  <span class="pct">40%</span>
-  <span class="odds">単10.1 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">14</span>
-  <span class="name">アンシュウマト</span>
-  <span class="pct">39%</span>
-  <span class="odds">単5.3 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">3</span>
-  <span class="name">タケルムサシ</span>
-  <span class="pct">29%</span>
-  <span class="odds">単7.9 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">12</span>
-  <span class="name">レボルシオン</span>
-  <span class="pct">28%</span>
-  <span class="odds">単18.3 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">7</span>
-  <span class="name">ユアフェリシティ</span>
-  <span class="pct">27%</span>
-  <span class="odds">単2.1 複-</span>
-  <span class="hit"></span>
-</div></div>
-  <div class="bet ">
-    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 13. ナックスプレンダー</div>
-    <div class="bet-sub">相手: 14. アンシュウマト / 3. タケルムサシ / 12. レボルシオン / 7. ユアフェリシティ</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山8R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">2200m 芝</span>
-      <span class="race-meta">16頭</span>
-    </div>
-  </div>
-  <div class="res-pending">結果待ち</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">12</span>
-  <span class="name">イモータリス</span>
-  <span class="pct">39%</span>
-  <span class="odds">単2.6 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">8</span>
-  <span class="name">ウイントリベルガ</span>
-  <span class="pct">35%</span>
-  <span class="odds">単80.0 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">9</span>
-  <span class="name">ピースヒロフェイス</span>
-  <span class="pct">33%</span>
-  <span class="odds">単24.8 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">5</span>
-  <span class="name">メアヴィア</span>
-  <span class="pct">27%</span>
-  <span class="odds">単10.9 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">6</span>
-  <span class="name">リュウジンマル</span>
-  <span class="pct">27%</span>
-  <span class="odds">単28.8 複-</span>
-  <span class="hit"></span>
-</div></div>
-  <div class="bet ">
-    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 12. イモータリス</div>
-    <div class="bet-sub">相手: 8. ウイントリベルガ / 9. ピースヒロフェイス / 5. メアヴィア / 6. リュウジンマル</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山9R</span>
-      <span class="race-name">鋸山特別</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1800m ダート</span>
-      <span class="race-meta">16頭</span>
-    </div>
-  </div>
-  <div class="res-pending">結果待ち</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">14</span>
-  <span class="name">ヴンダーバール</span>
-  <span class="pct">43%</span>
-  <span class="odds">単3.1 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">3</span>
-  <span class="name">パースウェイド</span>
-  <span class="pct">39%</span>
-  <span class="odds">単4.9 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">1</span>
-  <span class="name">コンアフェット</span>
-  <span class="pct">37%</span>
-  <span class="odds">単13.9 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">6</span>
-  <span class="name">フィールオーサム</span>
-  <span class="pct">36%</span>
-  <span class="odds">単3.8 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">8</span>
-  <span class="name">カスバートテソーロ</span>
-  <span class="pct">24%</span>
-  <span class="odds">単60.2 複-</span>
-  <span class="hit"></span>
-</div></div>
-  <div class="bet ">
-    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 14. ヴンダーバール</div>
-    <div class="bet-sub">相手: 3. パースウェイド / 1. コンアフェット / 6. フィールオーサム / 8. カスバートテソーロ</div>
-  </div>
-</div><div class="card">
-  <div class="card-head">
-    <div class="card-head-left">
-      <span class="race-label">中山10R</span>
-      <span class="race-name">ディープインパクトC</span>
-    </div>
-    <div class="card-head-right">
-      <span class="race-meta">1600m 芝</span>
-      <span class="race-meta">11頭</span>
-    </div>
-  </div>
-  <div class="res-pending">結果待ち</div>
-  <div class="horses"><div class="horse">
-  <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">6</span>
-  <span class="name">セブンマイスター</span>
+  <span class="name">スナッピードレッサ</span>
   <span class="pct">41%</span>
-  <span class="odds">単11.2 複-</span>
+  <span class="odds">単11.0 複2.5</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">5</span>
-  <span class="name">デイトナチャンプ</span>
+  <span class="num">4</span>
+  <span class="name">ヘニーガイスト</span>
   <span class="pct">41%</span>
-  <span class="odds">単2.4 複-</span>
+  <span class="odds">単2.5 複1.6</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">5</span>
+  <span class="name">ドンエレクトス</span>
+  <span class="pct">41%</span>
+  <span class="odds">単5.4 複1.6</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
   <span class="num">11</span>
-  <span class="name">プリムツァール</span>
-  <span class="pct">41%</span>
-  <span class="odds">単2.7 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
-  <span class="mark" style="color:#e07020">△</span>
-  <span class="num">7</span>
-  <span class="name">アロンソア</span>
-  <span class="pct">29%</span>
-  <span class="odds">単21.5 複-</span>
+  <span class="name">ジャスティンアース</span>
+  <span class="pct">39%</span>
+  <span class="odds">単9.2 複2.4</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">9</span>
-  <span class="name">アルデトップガン</span>
-  <span class="pct">28%</span>
-  <span class="odds">単4.6 複-</span>
+  <span class="num">1</span>
+  <span class="name">ルヴァレドクール</span>
+  <span class="pct">37%</span>
+  <span class="odds">単8.9 複2.0</span>
   <span class="hit"></span>
 </div></div>
   <div class="bet ">
     <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 6. セブンマイスター</div>
-    <div class="bet-sub">相手: 5. デイトナチャンプ / 11. プリムツァール / 7. アロンソア / 9. アルデトップガン</div>
+    <div class="bet-sub">軸: 3. スナッピードレッサ</div>
+    <div class="bet-sub">相手: 4. ヘニーガイスト / 5. ドンエレクトス / 11. ジャスティンアース / 1. ルヴァレドクール</div>
   </div>
 </div><div class="card">
   <div class="card-head">
     <div class="card-head-left">
-      <span class="race-label">中山11R</span>
-      <span class="race-name">JRAアニバーサリーS</span>
+      <span class="race-label">東京12R</span>
+      <span class="race-name">3歳以上2勝クラス</span>
     </div>
     <div class="card-head-right">
-      <span class="race-meta">1800m ダート</span>
+      <span class="race-meta">1400m ダート</span>
       <span class="race-meta">16頭</span>
     </div>
   </div>
   <div class="res-pending">結果待ち</div>
   <div class="horses"><div class="horse">
   <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">6</span>
+  <span class="name">ヘリテージブルーム</span>
+  <span class="pct">42%</span>
+  <span class="odds">単5.9 複1.8</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">8</span>
+  <span class="name">マジッククッキー</span>
+  <span class="pct">42%</span>
+  <span class="odds">単3.4 複2.0</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#2d6a4f">▲</span>
+  <span class="num">4</span>
+  <span class="name">レーティッシュ</span>
+  <span class="pct">38%</span>
+  <span class="odds">単8.1 複2.6</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#e07020">△</span>
   <span class="num">10</span>
-  <span class="name">ブルータス</span>
-  <span class="pct">40%</span>
+  <span class="name">ショーリバース</span>
+  <span class="pct">36%</span>
+  <span class="odds">単8.3 複2.4</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#7b5ea7">☆</span>
+  <span class="num">13</span>
+  <span class="name">メルシージュテーム</span>
+  <span class="pct">28%</span>
+  <span class="odds">単18.0 複3.9</span>
+  <span class="hit"></span>
+</div></div>
+  <div class="bet ">
+    <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
+    <div class="bet-sub">軸: 6. ヘリテージブルーム</div>
+    <div class="bet-sub">相手: 8. マジッククッキー / 4. レーティッシュ / 10. ショーリバース / 13. メルシージュテーム</div>
+  </div>
+</div></div>
+</div><div class="tab-pane " id="dtab1">
+  
+  <div class="vtabs" id="vtabs-dtab1"><button class="vtab-btn active" onclick="showVtab('dtab1','vtab1_0')" id="btn-vtab1_0">京都</button><button class="vtab-btn " onclick="showVtab('dtab1','vtab1_1')" id="btn-vtab1_1">東京</button></div>
+  <div class="vtab-pane active" id="vtab1_0"><div class="card">
+  <div class="card-head">
+    <div class="card-head-left">
+      <span class="race-label">京都11R</span>
+      <span class="race-name">京都大賞典</span>
+    </div>
+    <div class="card-head-right">
+      <span class="race-meta">2400m 芝</span>
+      <span class="race-meta">18頭</span>
+    </div>
+  </div>
+  <div class="res-pending">結果待ち</div>
+  <div class="horses"><div class="horse">
+  <span class="mark" style="color:#e63946">◎</span>
+  <span class="num">18</span>
+  <span class="name">ダノンシーマ</span>
+  <span class="pct">38%</span>
+  <span class="odds">単3.3 複-</span>
+  <span class="hit"></span>
+</div><div class="horse">
+  <span class="mark" style="color:#457b9d">○</span>
+  <span class="num">4</span>
+  <span class="name">ヘデントール</span>
+  <span class="pct">37%</span>
   <span class="odds">単6.9 複-</span>
   <span class="hit"></span>
 </div><div class="horse">
-  <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">2</span>
-  <span class="name">キョウエイフロイデ</span>
-  <span class="pct">39%</span>
-  <span class="odds">単5.6 複-</span>
-  <span class="hit"></span>
-</div><div class="horse">
   <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">12</span>
-  <span class="name">リフレックス</span>
-  <span class="pct">35%</span>
-  <span class="odds">単3.7 複-</span>
+  <span class="num">8</span>
+  <span class="name">ミクニインスパイア</span>
+  <span class="pct">37%</span>
+  <span class="odds">単13.0 複-</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#e07020">△</span>
-  <span class="num">3</span>
-  <span class="name">ディーズゴールド</span>
-  <span class="pct">28%</span>
-  <span class="odds">単4.7 複-</span>
+  <span class="num">1</span>
+  <span class="name">ウエストナウ</span>
+  <span class="pct">37%</span>
+  <span class="odds">単15.3 複-</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">5</span>
-  <span class="name">サノノワンダー</span>
-  <span class="pct">27%</span>
-  <span class="odds">単9.1 複-</span>
+  <span class="num">15</span>
+  <span class="name">メイショウブレゲ</span>
+  <span class="pct">36%</span>
+  <span class="odds">単224.0 複-</span>
   <span class="hit"></span>
 </div></div>
   <div class="bet ">
     <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 10. ブルータス</div>
-    <div class="bet-sub">相手: 2. キョウエイフロイデ / 12. リフレックス / 3. ディーズゴールド / 5. サノノワンダー</div>
+    <div class="bet-sub">軸: 18. ダノンシーマ</div>
+    <div class="bet-sub">相手: 4. ヘデントール / 8. ミクニインスパイア / 1. ウエストナウ / 15. メイショウブレゲ</div>
   </div>
-</div><div class="card">
+</div></div><div class="vtab-pane " id="vtab1_1"><div class="card">
   <div class="card-head">
     <div class="card-head-left">
-      <span class="race-label">中山12R</span>
-      <span class="race-name">3歳以上1勝クラス</span>
+      <span class="race-label">東京11R</span>
+      <span class="race-name">毎日王冠</span>
     </div>
     <div class="card-head-right">
-      <span class="race-meta">1200m ダート</span>
-      <span class="race-meta">16頭</span>
+      <span class="race-meta">1800m 芝</span>
+      <span class="race-meta">17頭</span>
     </div>
   </div>
   <div class="res-pending">結果待ち</div>
   <div class="horses"><div class="horse">
   <span class="mark" style="color:#e63946">◎</span>
-  <span class="num">12</span>
-  <span class="name">ソードスレイプニル</span>
-  <span class="pct">35%</span>
-  <span class="odds">単9.6 複-</span>
+  <span class="num">4</span>
+  <span class="name">サトノシャイニング</span>
+  <span class="pct">40%</span>
+  <span class="odds">単4.9 複-</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#457b9d">○</span>
-  <span class="num">5</span>
-  <span class="name">アレーティア</span>
-  <span class="pct">29%</span>
-  <span class="odds">単17.5 複-</span>
+  <span class="num">14</span>
+  <span class="name">レイニング</span>
+  <span class="pct">37%</span>
+  <span class="odds">単12.6 複-</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#2d6a4f">▲</span>
-  <span class="num">10</span>
-  <span class="name">カサブランカキッド</span>
-  <span class="pct">28%</span>
-  <span class="odds">単15.9 複-</span>
+  <span class="num">2</span>
+  <span class="name">リアライズシリウス</span>
+  <span class="pct">36%</span>
+  <span class="odds">単3.3 複-</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#e07020">△</span>
-  <span class="num">14</span>
-  <span class="name">エフエイト</span>
-  <span class="pct">27%</span>
-  <span class="odds">単16.1 複-</span>
+  <span class="num">3</span>
+  <span class="name">レディネス</span>
+  <span class="pct">35%</span>
+  <span class="odds">単21.4 複-</span>
   <span class="hit"></span>
 </div><div class="horse">
   <span class="mark" style="color:#7b5ea7">☆</span>
-  <span class="num">8</span>
-  <span class="name">ホウオウガイア</span>
-  <span class="pct">26%</span>
-  <span class="odds">単16.1 複-</span>
+  <span class="num">17</span>
+  <span class="name">ダノンエアズロック</span>
+  <span class="pct">35%</span>
+  <span class="odds">単26.4 複-</span>
   <span class="hit"></span>
 </div></div>
   <div class="bet ">
     <div class="bet-title">3連単1着流しマルチ（36点）　結果待ち</div>
-    <div class="bet-sub">軸: 12. ソードスレイプニル</div>
-    <div class="bet-sub">相手: 5. アレーティア / 10. カサブランカキッド / 14. エフエイト / 8. ホウオウガイア</div>
+    <div class="bet-sub">軸: 4. サトノシャイニング</div>
+    <div class="bet-sub">相手: 14. レイニング / 2. リアライズシリウス / 3. レディネス / 17. ダノンエアズロック</div>
   </div>
 </div></div>
 </div>
